@@ -8,17 +8,14 @@ class Solution {
         int[] objects = Arrays.stream(nums1).distinct().sorted().filter(i -> {
             return collect.contains(i);
             }).toArray();
-        
-        int [] result = new int[objects.length];
-        for (int i = 0; i < objects.length; i++) {
-            
-            result[i] = (int) objects[i];
-        }
         return objects;
     }
     
 }
 /**
-시작 - 7시 14분
+시작 - 7시 14분 -37분 (23분 소요)
+
+잘 안된 부분은 Java8 때문이다. toArray() 하면 int[] objects 로 나오지 않는다.
+내 IDE 는 11로 맞쳐져 있어서 이슈 발생
 
 **/
