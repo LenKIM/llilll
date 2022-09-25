@@ -1,3 +1,6 @@
+/**
+문제를 해맸던 이유는 접근 방식이 잘못되었기 때문이다.
+**/
 class Solution {
     public int findMiddleIndex(int[] nums) {
 
