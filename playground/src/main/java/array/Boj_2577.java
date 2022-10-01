@@ -3,7 +3,7 @@ package array;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class boj_2577 {
+public class Boj_2577 {
 
     public static void main(String[] args) {
 
