@@ -33,12 +33,12 @@ public class BOJ_1158 {
             // K번째 일때 제거
             if (i == K) {
 
-                int curNxtValue = nxt[cur];
-                pre[curNxtValue] = pre[cur];
-
-                int curPreValue = pre[cur];
-                nxt[curPreValue] = nxt[cur];
-
+                int curNxtIdx = nxt[cur];
+                pre[curNxtIdx] = pre[cur];
+//                현재 cur 의 nxt 가 현재 cur 의 이전 cur 가 된다.
+                int curPreIdx = pre[cur];
+                nxt[curPreIdx] = nxt[cur];
+//                이전 cur 의 idx 가 cur 의 nxt 의 idx가 된다.
                 if (len == 1) {
                     builder.append(cur);
                 } else {
