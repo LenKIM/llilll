@@ -1,4 +1,4 @@
-package lists._21_mergetwolists;
+package lists.leetcode._21_mergetwolists;
 
 public class Solution {
 
