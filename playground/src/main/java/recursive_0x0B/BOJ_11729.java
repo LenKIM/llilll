@@ -1,7 +1,6 @@
-package recursive;
+package recursive_0x0B;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * 하노이 탑*
