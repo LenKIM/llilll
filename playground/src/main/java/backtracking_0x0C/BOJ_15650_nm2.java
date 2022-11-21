@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_15649 {
+public class BOJ_15650_nm2 {
     private static int N;
     private static int M;
 
@@ -21,7 +21,7 @@ public class BOJ_15649 {
     }
 
     private static int[] arr = new int[10];
-    private static boolean[] isused = new boolean[10];
+    private static boolean[] isUsed = new boolean[10];
 
     private static void func(int k) {
         if (k == M) {
@@ -32,14 +32,17 @@ public class BOJ_15649 {
             System.out.println(sb.toString().trim());
             return;
         }
-
-        for (int i = 1; i <= N; i++) {
-            if (!isused[i]) {
+        int st = 1;
+        if (k != 0) st = arr[k-1] + 1; // K != 0일 경우
+        for (int i = st; i <= N; i++) {
+            if (!isUsed[i]) {
                 arr[k] = i;
-                isused[i] = true;
+                isUsed[i] = true;
                 func(k + 1);
-                isused[i] = false;
+                isUsed[i] = false;
             }
+
         }
     }
+
 }
