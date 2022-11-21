@@ -1,9 +1,8 @@
-package array;
+package array_0x03;
 
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Boj_2577 {
+public class BOJ_2577_숫자의_개수 {
 
     public static void main(String[] args) {
 

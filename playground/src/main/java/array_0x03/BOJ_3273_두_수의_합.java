@@ -1,8 +1,8 @@
-package array;
+package array_0x03;
 
 import java.util.Scanner;
 
-public class Boj_3273 {
+public class BOJ_3273_두_수의_합 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
