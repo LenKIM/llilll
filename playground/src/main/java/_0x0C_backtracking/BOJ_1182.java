@@ -1,4 +1,4 @@
-package backtracking_0x0C;
+package _0x0C_backtracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class BOJ_1182 {
 
     private static int S;
     private static int N;
-    private static int [] arr = new int[30];
+    private static final int [] arr = new int[30];
     private static int cnt = 0;
 
     public static void main(String[] args) throws IOException {

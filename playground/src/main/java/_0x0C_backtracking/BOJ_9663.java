@@ -1,4 +1,4 @@
-package backtracking_0x0C;
+package _0x0C_backtracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,9 +12,9 @@ public class BOJ_9663 {
 
     private static int N;
     private static int cnt = 0;
-    private static boolean isUsed1[] = new boolean[40]; // | 방향
-    private static boolean isUsed2[] = new boolean[40]; // \ 방향
-    private static boolean isUsed3[] = new boolean[40]; // / 방향
+    private static final boolean[] isUsed1 = new boolean[40]; // | 방향
+    private static final boolean[] isUsed2 = new boolean[40]; // \ 방향
+    private static final boolean[] isUsed3 = new boolean[40]; // / 방향
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,4 +1,4 @@
-package backtracking_0x0C;
+package _0x0C_backtracking;
 
 import java.util.Arrays;
 import java.util.Scanner;
