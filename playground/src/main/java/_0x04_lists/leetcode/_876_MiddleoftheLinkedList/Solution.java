@@ -1,4 +1,4 @@
-package lists.leetcode._876_MiddleoftheLinkedList;
+package _0x04_lists.leetcode._876_MiddleoftheLinkedList;
 
 import java.util.ArrayList;
 import java.util.List;

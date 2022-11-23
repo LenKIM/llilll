@@ -1,4 +1,4 @@
-package lists.leetcode._206_reverselinkedlist;
+package _0x04_lists.leetcode._206_reverselinkedlist;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package lists;
+package _0x04_lists;
 
 import java.io.*;
 import java.util.Stack;

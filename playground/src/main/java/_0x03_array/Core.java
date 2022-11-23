@@ -1,4 +1,4 @@
-package array_0x03;
+package _0x03_array;
 
 /**
  * 주어진 길이 N의 int 배열 arr에서 합이100인 서로 다른 위치의 두 원소가 존재하면 1을

@@ -1,4 +1,4 @@
-package lists.leetcode._142_linkedListCycle2;
+package _0x04_lists.leetcode._142_linkedListCycle2;
 
 /**
  * // 10:05
