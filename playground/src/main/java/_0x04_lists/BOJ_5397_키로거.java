@@ -9,7 +9,7 @@ import java.util.Stack;
  * Stack 을 통해 풀어야 제한시간 내에 풀 수 있다.
  * * *
  */
-public class Boj_5397 {
+public class BOJ_5397_키로거 {
 
     public static void main(String[] args) throws IOException {
 

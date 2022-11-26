@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * 요세푸스 문제*
  * 11:55*
  */
-public class BOJ_1158 {
+public class BOJ_1158_요세프스 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

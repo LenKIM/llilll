@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Boj_1406 {
+public class BOJ_1406_에디터 {
 
     public static void main(String[] args) {
 
