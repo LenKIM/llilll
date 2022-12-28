@@ -3,7 +3,7 @@ package queue;
 import java.io.*;
 import java.util.LinkedList;
 
-public class BOJ_1021 {
+public class BOJ_1021_회전하는_큐 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

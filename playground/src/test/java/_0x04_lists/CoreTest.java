@@ -1,4 +1,4 @@
-package lists;
+package _0x04_lists;
 
 class CoreTest {
 

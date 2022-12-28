@@ -1,4 +1,4 @@
-package array_0x03;
+package _0x03_array;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
