@@ -1,9 +1,9 @@
-package stacks;
+package _0x05_stacks;
 
 import java.io.*;
 import java.util.Stack;
 
-public class BOJ_10773 {
+public class BOJ_10773_제로 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

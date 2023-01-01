@@ -1,9 +1,9 @@
-package stacks;
+package _0x05_stacks;
 
 import java.io.*;
 import java.util.Stack;
 
-public class BOJ_3015 {
+public class BOJ_17298_오큰수 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -42,6 +42,5 @@ public class BOJ_3015 {
         bw.write(sb.toString().trim());
         bw.close();
         br.close();
-
     }
 }

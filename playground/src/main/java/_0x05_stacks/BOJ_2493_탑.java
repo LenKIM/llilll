@@ -1,13 +1,15 @@
-package stacks;
+package _0x05_stacks;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Stack;
 
 /**
  * 07:30* 08:06 -> 자바에서는 Stack 안에 타입을 자유롭게 가져가기 힘들다.
  * 그러인데, 타입을 선언하게 되는데, 생각의 전향이 쉽지 않다.*
  */
-public class BOJ_2493 {
+public class BOJ_2493_탑 {
 
     public static void main(String[] args) throws IOException {
 
@@ -54,4 +56,6 @@ public class BOJ_2493 {
             this.right = right;
         }
     }
+
+
 }

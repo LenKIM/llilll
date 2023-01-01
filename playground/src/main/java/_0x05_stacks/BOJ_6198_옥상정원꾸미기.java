@@ -1,4 +1,4 @@
-package stacks;
+package _0x05_stacks;
 
 import java.io.*;
 import java.util.Stack;
@@ -21,7 +21,7 @@ import java.util.Stack;
  * 입력에서 int 값을 벗어날 것이라는 것에 대해서 인지하지 못해 계속 오류가 발생함.* *
  * int > 2,147,483,647*
  */
-public class BOJ_6198 {
+public class BOJ_6198_옥상정원꾸미기 {
 
     public static void main(String[] args) throws IOException {
 

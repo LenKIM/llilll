@@ -1,4 +1,4 @@
-package stacks;
+package _0x05_stacks;
 
 import java.io.*;
 import java.util.Stack;
@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * 지문을 이해하는게 아려운 문제*
  */
-public class BOJ_1874 {
+public class BOJ_1874_스택수열 {
 
     public static void main(String[] args) throws IOException {
 
